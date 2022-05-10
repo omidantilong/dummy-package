@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.digitalplatform.coop.co.uk:publishing-services/dummy-package.git"
+    "url": "git@github.com:omidantilong/dummy-package.git"
   },
   "author": "omidantilong",
   "license": "ISC",
