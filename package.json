@@ -1,6 +1,6 @@
 {
   "name": "coop-dummy-package-v2",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "it's a dummy coop package init",
   "main": "dist/index.js",
   "publishConfig": {
