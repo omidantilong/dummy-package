@@ -1,0 +1,40 @@
+{
+  "name": "coop-dummy-package-v2",
+  "version": "1.0.9",
+  "description": "it's a dummy coop package init",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false,
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack",
+    "prepublish": "rm -rf ./dist && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.digitalplatform.coop.co.uk:publishing-services/dummy-package.git"
+  },
+  "author": "omidantilong",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-loader": "^8.2.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "@babel/preset-react": "^7.16.7"
+  },
+  "dependencies": {}
+}
